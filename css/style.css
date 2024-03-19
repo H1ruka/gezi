@@ -16,7 +16,7 @@
   left: 0;
   width: 100vw;
   height: 100svh;
-  background: url("../img/preview3.jpg") no-repeat right center/cover;
+  background: url("../img/preview4.jpg") no-repeat right center/cover;
   color: #f4f4f4;
   z-index: 1; }
   .home-section::before {
@@ -27,7 +27,7 @@
     width: 100%;
     height: 100%;
     background: #333;
-    opacity: 0.6;
+    opacity: 0.4;
     z-index: -1; }
   .home-section .container .txt {
     position: absolute;
@@ -64,7 +64,7 @@
       gap: 1rem;
       padding: 0rem .5rem; }
       .almaty-section .container .punkts .punkt {
-        background-color: #7a6649;
+        background-color: #ffd966;
         border-radius: 20px;
         color: #f4f4f4;
         width: 80px;
@@ -89,18 +89,58 @@
           text-align: start;
           padding: 0rem .5rem; }
 
+.transition {
+  width: 100vw;
+  height: 100px;
+  background: linear-gradient(180deg, #8e6eaa, #2e5aac); }
+
+.taraz-section {
+  background-color: #8e6eaa; }
+  .taraz-section .container {
+    padding-bottom: 2rem; }
+    .taraz-section .container h2 {
+      font-size: 80px; }
+    .taraz-section .container .sub-callout {
+      display: flex;
+      margin: 1rem .5rem;
+      align-items: center;
+      justify-content: center;
+      gap: 5rem;
+      box-shadow: 0px 0px 10px #666;
+      padding: 1rem;
+      border-radius: 10px;
+      background-color: #6b4d82; }
+      .taraz-section .container .sub-callout .sub-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem; }
+        .taraz-section .container .sub-callout .sub-text h3 {
+          font-size: 30px; }
+        .taraz-section .container .sub-callout .sub-text h4 {
+          font-size: 20px; }
+      .taraz-section .container .sub-callout .square {
+        width: 50px;
+        height: 50px;
+        background-color: #ccc;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+
 .top-wave {
   position: relative;
   top: 10px;
-  height: 70px; }
+  height: 90px; }
 
-.taraz-section .container, .taraz-section2 .container {
-  background-color: #556B2F; }
-  .taraz-section .container h2, .taraz-section2 .container h2 {
+.shymkent-section .container, .shymkent-section2 .container {
+  background-color: #2e5aac;
+  padding-bottom: 5rem; }
+  .shymkent-section .container h2, .shymkent-section2 .container h2 {
     font-size: 70px;
     margin-bottom: 3rem;
     padding-top: 2rem; }
-  .taraz-section .container .timeline .vertical-line, .taraz-section2 .container .timeline .vertical-line {
+  .shymkent-section .container .timeline .vertical-line, .shymkent-section2 .container .timeline .vertical-line {
     width: 3px;
     height: auto;
     background-color: #333;
@@ -112,42 +152,63 @@
     justify-content: center;
     gap: 4rem;
     z-index: 1; }
-    .taraz-section .container .timeline .vertical-line .dot, .taraz-section2 .container .timeline .vertical-line .dot {
+    .shymkent-section .container .timeline .vertical-line .dot, .shymkent-section2 .container .timeline .vertical-line .dot {
       position: relative;
       width: 25px;
       height: 25px;
       background-color: #FFD700;
       border-radius: 50%;
       z-index: 1; }
-      .taraz-section .container .timeline .vertical-line .dot:nth-child(odd) .text, .taraz-section2 .container .timeline .vertical-line .dot:nth-child(odd) .text {
+      .shymkent-section .container .timeline .vertical-line .dot:nth-child(odd) .text, .shymkent-section2 .container .timeline .vertical-line .dot:nth-child(odd) .text {
         position: absolute;
         top: -50%;
         left: 130%;
         width: 500%;
         z-index: 1; }
-        .taraz-section .container .timeline .vertical-line .dot:nth-child(odd) .text h3, .taraz-section2 .container .timeline .vertical-line .dot:nth-child(odd) .text h3 {
+        .shymkent-section .container .timeline .vertical-line .dot:nth-child(odd) .text h3, .shymkent-section2 .container .timeline .vertical-line .dot:nth-child(odd) .text h3 {
           font-size: 30px; }
-        .taraz-section .container .timeline .vertical-line .dot:nth-child(odd) .text h4, .taraz-section2 .container .timeline .vertical-line .dot:nth-child(odd) .text h4 {
+        .shymkent-section .container .timeline .vertical-line .dot:nth-child(odd) .text h4, .shymkent-section2 .container .timeline .vertical-line .dot:nth-child(odd) .text h4 {
           font-size: 18px; }
-      .taraz-section .container .timeline .vertical-line .dot:nth-child(even) .text, .taraz-section2 .container .timeline .vertical-line .dot:nth-child(even) .text {
+      .shymkent-section .container .timeline .vertical-line .dot:nth-child(even) .text, .shymkent-section2 .container .timeline .vertical-line .dot:nth-child(even) .text {
         position: absolute;
         top: -50%;
         right: 200%;
         width: 500%;
         z-index: 1; }
-        .taraz-section .container .timeline .vertical-line .dot:nth-child(even) .text h3, .taraz-section2 .container .timeline .vertical-line .dot:nth-child(even) .text h3 {
+        .shymkent-section .container .timeline .vertical-line .dot:nth-child(even) .text h3, .shymkent-section2 .container .timeline .vertical-line .dot:nth-child(even) .text h3 {
           font-size: 30px; }
-        .taraz-section .container .timeline .vertical-line .dot:nth-child(even) .text h4, .taraz-section2 .container .timeline .vertical-line .dot:nth-child(even) .text h4 {
+        .shymkent-section .container .timeline .vertical-line .dot:nth-child(even) .text h4, .shymkent-section2 .container .timeline .vertical-line .dot:nth-child(even) .text h4 {
           font-size: 18px; }
 
 .bottom-wave {
   width: 100%;
   position: relative;
-  top: -100px; }
+  top: 0px; }
 
-.taraz-section2 {
+.shymkent-section2 {
+  position: relative; }
+  .shymkent-section2 .container-2 {
+    background-color: #4d6daa !important; }
+
+.shymkent-section {
+  background: url("../img/shym1.svg"); }
+
+.go-back-section {
   position: relative;
-  top: -120px; }
-  .taraz-section2 .container-2 {
-    padding-bottom: 3rem;
-    background-color: #4c5e28 !important; }
+  background-color: #d3e0c4;
+  padding: 3rem 0rem; }
+  .go-back-section .container .sub-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem; }
+    .go-back-section .container .sub-container h2 {
+      font-size: 40px; }
+  .go-back-section .container .callout {
+    padding: .5rem;
+    border: 1px solid #333;
+    margin: .5rem;
+    border-radius: 10px;
+    background-color: #eee; }
+    .go-back-section .container .callout:last-child {
+      background-color: #ccc; }

@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/406d692b05.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -14,9 +15,9 @@
         <div class="container">
             <div class="txt">
                 <h1>Gezi 10A</h1>
-                <h2>Almaty</h2>
-                <h2>Taraz</h2>
-                <h2>Shymkent</h2>
+                <h2 class="btn">Almaty</h2>
+                <h2 class="btn">Taraz</h2>
+                <h2 class="btn">Shymkent</h2>
             </div>
         </div>
     </div>
@@ -56,32 +57,108 @@
         </div>
     </div>
 
+    <!-- TARAZ SECTION -->
 
-    <svg width="100%" height="100%" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" overflow="auto" shape-rendering="auto" fill="#f4f4f4" class="top-wave">
+
+    <svg width="100%" height="100%" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" overflow="auto" shape-rendering="auto" fill="#ffffff" class="top-wave">
         <defs>
-         <path id="wavepath" d="M 0 2000 0 500 Q 150 140 300 500 t 300 0 300 0 300 0 300 0 300 0  v1000 z" />
-         <path id="motionpath" d="M -600 0 0 0" /> 
+        <path id="wavepath" d="M 0 2000 0 500 Q 114.5 315 229 500 t 229 0 229 0 229 0 229 0 229 0 229 0  v1000 z" />
+        <path id="motionpath" d="M -458 0 0 0" /> 
         </defs>
         <g >
-         <use xlink:href="#wavepath" y="200" fill="#556b2f">
-         <animateMotion
-          dur="5s"
-          repeatCount="indefinite">
-          <mpath xlink:href="#motionpath" />
-         </animateMotion>
-         </use>
+        <use xlink:href="#wavepath" y="-196" fill="#8e6eaa">
+        <animateMotion
+        dur="5s"
+        repeatCount="indefinite">
+        <mpath xlink:href="#motionpath" />
+        </animateMotion>
+        </use>
         </g>
     </svg>
 
     <div class="taraz-section">
         <div class="container">
-            <h2>Taraz 01</h2>
+            <h2>Taraz</h2>
+            <div class="sub-callout">
+                <div class="square">
+                    <h3>1</h3>
+                </div>
+                <div class="sub-text">
+                    <h3>Прибытие</h3>
+                    <h4>05:00</h4>
+                </div>
+            </div>
+            <div class="sub-callout">
+                <div class="sub-text">
+                    <h3>Заселение</h3>
+                    <h4>08:00</h4>
+                </div>
+                <div class="square">
+                    <h3>2</h3>
+                </div>
+            </div>
+            <div class="sub-callout">
+                <div class="square">
+                    <h3>3</h3>
+                </div>
+                <div class="sub-text">
+                    <h3>Прогулка по Арбату</h3>
+                    <h4>21:00</h4>
+                </div>
+            </div>
+            <div class="sub-callout">
+                <div class="sub-text">
+                    <h3>Древний Тараз</h3>
+                    <h4>21:00</h4>
+                </div>
+                <div class="square">
+                    <h3>4</h3>
+                </div>
+            </div>
+            <div class="sub-callout">
+                <div class="square">
+                    <h3>5</h3>
+                </div>
+                <div class="sub-text">
+                    <h3>Counter Strike</h3>
+                    <h4>21:00</h4>
+                </div>
+            </div>
+            <div class="sub-callout">
+                <div class="sub-text">
+                    <h3>Ифтар</h3>
+                    <h4>21:00</h4>
+                </div>
+                <div class="square">
+                    <h3>6</h3>
+                </div>
+            </div>
+            <div class="sub-callout">
+                <div class="square">
+                    <h3>7</h3>
+                </div>
+                <div class="sub-text">
+                    <h3>Фильм</h3>
+                    <h4>21:00</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- TOP WAVE -->
+
+    <div class="transition"></div>
+    <!-- SHYMKENT SECTION -->
+
+    <div class="shymkent-section">
+        <div class="container">
+            <h2>Shymkent 01</h2>
             <div class="timeline">
                 <div class="vertical-line">
                     <div class="dot dot1">
                         <div class="text">
                             <h3>Прибытие</h3>
-                            <h4>05:00</h4>
+                            <h4>~~~</h4>
                         </div>
                     </div>
                     <div class="dot dot2">
@@ -92,13 +169,13 @@
                     </div>
                     <div class="dot dot3">
                         <div class="text">
-                            <h3>Прогулка и Пикник</h3>
+                            <h3>Paintball</h3>
                             <h4>10:00</h4>
                         </div>
                     </div>
                     <div class="dot dot4">
                         <div class="text">
-                            <h3>Батут</h3>
+                            <h3>Bowling</h3>
                             <h4>15:00</h4>
                         </div>
                     </div>
@@ -110,19 +187,25 @@
                     </div>
                     <div class="dot dot6">
                         <div class="text">
-                            <h3>Фильм</h3>
+                            <h3>Футбол</h3>
+                            <h4>21:00</h4>
+                        </div>
+                    </div>
+                    <div class="dot dot6">
+                        <div class="text">
+                            <h3>Чай</h3>
                             <h4>21:00</h4>
                         </div>
                     </div>
                 </div>
             </div>
-            <img src="./img/wave-haikei.svg" alt="" class="bottom-wave">
         </div>
     </div>
-
-    <div class="taraz-section2">
+    
+    <div class="shymkent-section2">
         <div class="container container-2">
-            <h2>Taraz 02</h2>
+            <img src="./img/wave-haikei.svg" alt="" class="bottom-wave">
+            <h2>Shymkent 02</h2>
             <div class="timeline timeline-2">
                 <div class="vertical-line">
                     <div class="dot dot1">
@@ -133,13 +216,13 @@
                     </div>
                     <div class="dot dot2">
                         <div class="text">
-                            <h3>Боулинг</h3>
+                            <h3>VR CS</h3>
                             <h4>12:00</h4>
                         </div>
                     </div>
                     <div class="dot dot3">
                         <div class="text">
-                            <h3>Paintball</h3>
+                            <h3>Батут</h3>
                             <h4>15:00</h4>
                         </div>
                     </div>
@@ -157,7 +240,7 @@
                     </div>
                     <div class="dot dot6">
                         <div class="text">
-                            <h3>Чай</h3>
+                            <h3>Чтение Книги</h3>
                             <h4>21:00</h4>
                         </div>
                     </div>
@@ -166,16 +249,48 @@
         </div>
     </div>
 
-    <div class="shymkent-section">
+    <!-- SUMMARIZE SECTION  -->
+
+    <div class="go-back-section">
         <div class="container">
-            <div class="sub-section">
-                <div class="square"></div>
-                <div class="txst">
-                    <h3>bla bla</h3>
-                    <h4>21:00</h4>
+            <div class="sub-container">
+                <div class="text-home">
+                    <h2>Итог</h2>
                 </div>
+                <div class="icon">
+                    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                    <lord-icon
+                        src="https://cdn.lordicon.com/wzwygmng.json"
+                        trigger="loop"
+                        delay="5000"
+                        style="width:80px;height:80px">
+                    </lord-icon>
+                </div>
+            </div>
+            <div class="callout">
+                <h2>Almaty - Taraz: &nbsp; &nbsp; 8,000tg</h2>
+            </div>
+            <div class="callout">
+                <h2>Taraz Day 1: &nbsp; &nbsp; 9,000tg</h2>
+            </div>
+            <div class="callout">
+                <h2>Shymkent Day 1: &nbsp; &nbsp; 11,500tg</h2>
+            </div>
+            <div class="callout">
+                <h2>Shymkent Day 2: &nbsp; &nbsp; 8,500tg</h2>
+            </div>
+            <div class="callout">
+                <h2>Shymkent - Alamty: &nbsp; &nbsp; 8,500tg</h2>
+            </div>
+            <hr>
+            <br>
+            <hr>
+            <br>
+            <div class="callout">
+                <h2>Sum: &nbsp; &nbsp; 45,000tg</h2>
             </div>
         </div>
     </div>
+    <script src="js/click.js"></script>
 </body>
 </html> 
