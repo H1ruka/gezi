@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Finlandica';
+  font-weight: 400; }
+
+.container {
+  max-width: 430px;
+  margin: auto;
+  text-align: center; }
+
+.home-section {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100svh;
+  background: url("../img/preview3.jpg") no-repeat right center/cover;
+  color: #f4f4f4;
+  z-index: 1; }
+  .home-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    opacity: 0.6;
+    z-index: -1; }
+  .home-section .container .txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+    width: 80%; }
+    .home-section .container .txt h1 {
+      font-size: 80px;
+      margin-bottom: 4rem; }
+    .home-section .container .txt h2 {
+      font-size: 40px;
+      padding: .5rem 1.5rem;
+      border: 1px solid #f4f4f4;
+      border-radius: 10px;
+      box-shadow: 0px 0px 5px #f4f4f4; }
+
+.almaty-section {
+  padding: 3rem 0rem; }
+  .almaty-section .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem; }
+    .almaty-section .container .punkts {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      padding: 0rem .5rem; }
+      .almaty-section .container .punkts .punkt {
+        background-color: #7a6649;
+        border-radius: 20px;
+        color: #f4f4f4;
+        width: 80px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 35px; }
+    .almaty-section .container .description {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem; }
+      .almaty-section .container .description .ds {
+        border-left: 1px solid #333;
+        width: auto;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: start; }
+        .almaty-section .container .description .ds h3 {
+          font-size: 25px;
+          text-align: start;
+          padding: 0rem .5rem; }
+
+.top-wave {
+  position: relative;
+  top: 10px;
+  height: 70px; }
+
+.taraz-section .container, .taraz-section2 .container {
+  background-color: #556B2F; }
+  .taraz-section .container h2, .taraz-section2 .container h2 {
+    font-size: 70px;
+    margin-bottom: 3rem;
+    padding-top: 2rem; }
+  .taraz-section .container .timeline .vertical-line, .taraz-section2 .container .timeline .vertical-line {
+    width: 3px;
+    height: auto;
+    background-color: #333;
+    position: relative;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    z-index: 1; }
+    .taraz-section .container .timeline .vertical-line .dot, .taraz-section2 .container .timeline .vertical-line .dot {
+      position: relative;
+      width: 25px;
+      height: 25px;
+      background-color: #FFD700;
+      border-radius: 50%;
+      z-index: 1; }
+      .taraz-section .container .timeline .vertical-line .dot:nth-child(odd) .text, .taraz-section2 .container .timeline .vertical-line .dot:nth-child(odd) .text {
+        position: absolute;
+        top: -50%;
+        left: 130%;
+        width: 500%;
+        z-index: 1; }
+        .taraz-section .container .timeline .vertical-line .dot:nth-child(odd) .text h3, .taraz-section2 .container .timeline .vertical-line .dot:nth-child(odd) .text h3 {
+          font-size: 30px; }
+        .taraz-section .container .timeline .vertical-line .dot:nth-child(odd) .text h4, .taraz-section2 .container .timeline .vertical-line .dot:nth-child(odd) .text h4 {
+          font-size: 18px; }
+      .taraz-section .container .timeline .vertical-line .dot:nth-child(even) .text, .taraz-section2 .container .timeline .vertical-line .dot:nth-child(even) .text {
+        position: absolute;
+        top: -50%;
+        right: 200%;
+        width: 500%;
+        z-index: 1; }
+        .taraz-section .container .timeline .vertical-line .dot:nth-child(even) .text h3, .taraz-section2 .container .timeline .vertical-line .dot:nth-child(even) .text h3 {
+          font-size: 30px; }
+        .taraz-section .container .timeline .vertical-line .dot:nth-child(even) .text h4, .taraz-section2 .container .timeline .vertical-line .dot:nth-child(even) .text h4 {
+          font-size: 18px; }
+
+.bottom-wave {
+  width: 100%;
+  position: relative;
+  top: -100px; }
+
+.taraz-section2 {
+  position: relative;
+  top: -120px; }
+  .taraz-section2 .container-2 {
+    padding-bottom: 3rem;
+    background-color: #4c5e28 !important; }
